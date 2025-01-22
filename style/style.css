@@ -8,8 +8,12 @@ html {
 }
 body {
     font-family: "Merriweather", serif;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+main > section {
+    margin: 10rem 0;
 }
 .banner {
     border-radius: 1.6rem;
@@ -79,4 +83,162 @@ body {
     font-weight: 700;
     line-height: 5.8rem;
     text-align: center;
+}
+
+/* mid party styles */
+.midnight-party {
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%) ,url(../images/Vectorrr.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.midnight-party .content a {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-align: left;
+    text-decoration: none;
+    padding: 4rem;
+    display: block;
+    /* text-transform: uppercase; */
+}
+.midnight-party .content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 1.8rem;
+    line-height: 30px;
+    text-align: left;
+}
+.midnight-party .content h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+/* event styles */
+.event {
+    text-align: center;
+    padding: 10rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+.event p {
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 5rem;
+}
+.red {
+    color: rgb(255, 0, 0);
+}
+.event-btn {
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    background: rgb(255, 0, 0);
+    border: none;
+    padding: 1.6rem 3.2rem;
+    margin-top: 5rem;
+}
+/* coming soon styles */
+.coming-soon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8rem;
+    padding: 3%;
+}
+.right-content,
+.middle-img,
+.left-content {
+    width: 25%;
+    display: grid;
+    gap: 3rem;
+}
+.middle-img {
+    box-sizing: border-box;
+    width: 40rem;
+    height: 40rem;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+.middle-img img {
+    width: 35rem;
+    height: 35rem;
+    margin: 10px 10px;
+}
+.coming-soon p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    text-align: left;
+}
+.coming-soon h3 {
+    color: rgb(7, 2, 17);
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 6rem;
+    text-align: left;
+}
+.coming-soon h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+/* holiday sale styles */
+.holiday-sale {
+    height: 100%;
+    background: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100%;
+}
+.holiday-sale h4 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2rem;
+    text-align: center;
+}
+.holiday-sale p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: center;
+}
+.holiday-sale h2 {
+    font-size: 7.2rem;
+    font-weight: 900;
+    line-height: 9rem;
+    text-align: center;
+    margin: 5rem auto;
+}
+.box-container .box1 img{
+    width: 80%;
+}
+.box-container {
+    display: flex;
+    justify-content: space-around;
 }
