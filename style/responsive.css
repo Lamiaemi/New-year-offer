@@ -1,0 +1,30 @@
+@media screen and (max-width:988px){
+    img {
+        width: 100%;
+    }
+    .banner-content {
+            position: absolute;
+            width: auto;
+            height: auto;
+            left: auto;
+            right: auto;
+            top: 20rem;
+            bottom: auto;
+        }
+}
+@media screen and (max-width:576px){
+    
+    .banner-content {
+        position: absolute;
+        width: auto;
+        height: auto;
+        left: auto;
+        right: auto;
+        top: 20rem;
+        bottom: auto;
+    }
+    .banner-title {
+        font-size: 15vw;
+        line-height: normal;
+    }
+}

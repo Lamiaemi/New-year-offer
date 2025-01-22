@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
 body {
     font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
 }
 .banner {
-    border-radius: 16px;
+    border-radius: 1.6rem;
     background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),url("../images/Banner\ Image.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -15,9 +24,9 @@ body {
     position: absolute;
     width: 632px;
     height: 246px;
-    left: 484px;
-    right: -484px;
-    top: 227px;
+    left: 25%;
+    right: 25%;
+    top: 20rem;
     bottom: -227px;
     
     
@@ -25,17 +34,49 @@ body {
 .new-year {
     color: rgb(255, 255, 255);
     font-family: Merriweather;
-    font-size: 32px;
+    font-size: 3rem;
     font-weight: 400;
     line-height: 40px;
-    letter-spacing: 0%;
     text-align: center;
 }
 .banner-title {
     color: rgb(255, 255, 255);
-    font-size: 72px;
+    font-size: 7rem;
     font-weight: 900;
-    line-height: 95px;
-    letter-spacing: 0%;
+    line-height: 9rem;
+    text-align: center;
+}
+/* promo-banner styles */
+.promo-banner {
+    text-align: center;
+    /* background: #000; */
+    color: white;
+    padding: 50px 20px;
+    position: relative;
+}
+/* Top text styling */
+.top-text h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 10rem;
+    text-align: center;
+}
+.top-text p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.9rem;
+    text-align: center;
+}
+/* Middle text styling */
+.middle-text h2 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 5.8rem;
     text-align: center;
 }
