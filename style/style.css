@@ -242,3 +242,28 @@ main > section {
     display: flex;
     justify-content: space-around;
 }
+/* best-gift styles */
+.Best-gift {
+    text-align: left;
+    padding: 10px 20px;
+}
+.grid-image-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+.Best-gift h4 {
+    color: red;
+    font-size: 24px;
+}
+.Best-gift h2 {
+    font-size: 4.8rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Best-gift p {
+    font-size: 2rem;
+    color: rgba(7, 2, 17, 0.6);
+    padding-bottom: 40px;
+}
